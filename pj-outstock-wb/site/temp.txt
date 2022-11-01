@@ -517,5 +517,4 @@
             DETAIL LAST DIV
 
 
-            <?php echo substr($product['short_description'],0,50) ?>'...
-            for ($i = 1; $i <= $total; $i++) { 
+            <?php echo substr($product['short_description'],0,50) ?>'... 

@@ -65,9 +65,10 @@
                               <div class="detail-product-info">
                                     <?php
                                     foreach ($kq as  $value) {
-                                          $value['name_pro'];
+                                          echo '<h1>'.$value['name_pro'].'</h1>' ;
                                     }
                                     ?>
+                                    
                                     <div class="detail-product-review">
                                           <span class="detail-review">
                                                 <span class="detail-rating">
@@ -100,10 +101,10 @@
                                           </div>
                                     </div>
                                     <div class="detail-product-desc">
-                                          <p>Sapien luctus id justo suscipit nonummy eget hymenaeos phasellus felis enim, dolor tortor cras nonummy sit amet nam wisi suspendisse mattis mi vel leo.</p>
+                                          <?php echo substr($value['discribe'],0,50) ?>...
                                     </div>
                                     <div class="detail-product-wrapper">
-                                          <form class="detail-product-addcart" action="#" method="POST">
+                                          <form class="detail-product-addcart" action="index.php?act=addtocart" method="POST">
                                                 <div class="addcard">
                                                       <div class="addcard-group">
                                                             <div class="addcard-quantity">
@@ -111,13 +112,13 @@
                                                                         <button type="button" class="addcard-qty-minus">
                                                                               <span>-</span>
                                                                         </button>
-                                                                        <input type="text" value="1" min="1" pattern="[0-9]*">
+                                                                        <input type="text" value="1" name="amountpro-sell" min="1" pattern="[0-9]*">
                                                                         <button type="button" class="addcard-qty-plus">
                                                                               <span>+</span>
                                                                         </button>
                                                                   </div>
                                                             </div>
-                                                            <button type="button" class="btn btn-addcard">
+                                                            <button type="submit" name="add-cart" class="btn btn-addcard">
                                                                   <i class="icons">
                                                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
                                                                               <g>
@@ -131,6 +132,14 @@
                                                             </button>
                                                       </div>
                                                 </div>
+                                                <?php 
+                                                echo'
+                                                <input type="hidden" name="id" value="'.$value['id'].'">
+                                                <input type="hidden" name="namepro-sell" value="'.$value['name_pro'].'">
+                                                <input type="hidden" name="pricepro-sell" value="'.$value['price'].'">
+                                                <input type="hidden" name="imgpro-sell" value="'.$value['img'].'">
+                                                ';
+                                                ?>
                                           </form>
                                           <div class="detail-product-atribute">
                                                 <p class="atribute">
@@ -203,7 +212,7 @@
                               <div class="rte">
                                     <?php
                                     foreach ($kq as  $value) {
-                                          echo '<p>' . $value['description'] . '</p>';
+                                          echo '<p>' . $value['discribe'] . '</p>';
                                     }
                                     ?>
                                     <p>Don't ever play yourself. The weather is amazing, walk with me through the pathway of more success. Take this journey with me, Lion! The other day the grass was brown, now it’s green because I ain’t give up. Never surrender</p>

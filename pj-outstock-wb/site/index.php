@@ -48,6 +48,9 @@ include '../Moduel/moduel_pro.php';
                 include './login-account.php';
                 break;
             case 'view_cart':
+                include './view-cart.php';
+                break;
+            case 'addtocart':
                 if ( isset($_POST['add-cart'])) {
                     $id = $_POST['id'];
                     $name_cart = $_POST['namepro-sell'];
@@ -62,16 +65,17 @@ include '../Moduel/moduel_pro.php';
                     $arr = array($id, $name_cart, $price_cart, $img_cart, $amount);
                         $_SESSION['viewcart'][] = $arr;
                 }
-                include './view-cart.php';
+                header('location: index.php?act=view_cart');
                 break;
+            
             case 'delonecart':
                 if (isset($_GET['id'])) {
                     array_splice($_SESSION['viewcart'],$_GET['id'],1);
                 }else{
                     unset($_SESSION['viewcart']);
                 }
-                include './view-cart.php';
-                // header('location: view-cart.php');
+                
+                header('location: index.php?act=view_cart');
                 break;
             case 'checkout':
                 header('location: checkout.php');
@@ -90,4 +94,5 @@ include '../Moduel/moduel_pro.php';
     <script src="./public/javascript/Tab-Form.js"></script>
     <script src="./public/javascript/Show-hide.js"></script>
     <script src="./public/javascript/Script.js"></script>
+    <script src="./public/javascript/Shopping-cart.js"></script>
 </html>

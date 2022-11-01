@@ -215,25 +215,23 @@
                                                       <?php
                                                       // phân trang
                                                       $per_page = 12;
-                                                      $pagenum = 1;
                                                       if (!isset($_GET['pagenum'])) {
                                                             $pagenum = 1;
                                                       } else {
                                                             $pagenum = $_GET['pagenum'];
                                                       }
-                                                      $count = count_pro();
-                                                      // $total = ceil($count / $per_page);
-                                                      $total = 15;
+                                                      $count = gettotal();
+                                                      $total = ceil($count / $per_page);
+
                                                       // xuất sản phẩm
                                                       $from_pro = $pagenum * $per_page - $per_page;
                                                       $kq = get_pro($from_pro, $per_page);
                                                       foreach ($kq as $value) {
                                                             if (($value['status'] == 1) && (isset($kq))) {
                                                                   echo '<div class="c-3 col">
-                                                                  <form action="./index.php?act=view_cart" method="post">
+                                                                  <form action="./index.php?act=addtocart" method="post">
                                                                   <div class="product">
                                                                         <div class="product-image">
-                                                                        ' . $value['id'] . '
                                                                               <a class="product-image-link" href="index.php?act=detail&id=' . $value['id'] . '">
                                                                                     <img src="' . $value['img'] . '" alt="product-image">
                                                                                     <div class="product-hover-image">
@@ -267,18 +265,18 @@
                                                                                     <div class="product-sale">
                                                                                           <span>$26.00</span>
                                                                                     </div>
-                                                                                          <button name="add-cart" type="submit" class="btn btn-add-cart ">
-                                                                                                <i class="icons">
-                                                                                                      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                                                                                    <button name="add-cart" type="submit" class="btn btn-add-cart ">
+                                                                                          <i class="icons">
+                                                                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                                                                                                      <g>
                                                                                                             <g>
-                                                                                                                  <g>
-                                                                                                                        <path d="M416,277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416V277.333z"></path>
-                                                                                                                  </g>
+                                                                                                                  <path d="M416,277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416V277.333z"></path>
                                                                                                             </g>
-                                                                                                      </svg>
-                                                                                                </i>
-                                                                                                <span>Add to Cart</span>
-                                                                                          </button>
+                                                                                                      </g>
+                                                                                                </svg>
+                                                                                          </i>
+                                                                                          <span>Add to Cart</span>
+                                                                                    </button>
                                                                               </div>
                                                                         </div>
                                                                   </div>
@@ -406,41 +404,54 @@
                                                                                     <i class="fa-sharp fa-solid fa-angle-left"></i>
                                                                               </a>
                                                                         </li>
-                                                                  <?php } else ?>
-                                                                  <?php 
-                                                                        
-                                                                        $i = $pagenum;
-                                                                        $last_page= $pagenum + 4;
-                                                                  ?>
-                                                                        
-                                                                  <?php for ($i  ; $i <= $last_page  ; $i++) {; ?>
-                                                                        <?php
-                                                                        if ($pagenum == $i) {
-                                                                              echo '
-                                                                                    <li class="pagination-item active">
-                                                                                    <a class="pagination-page-link" href="index.php?act=product&pagenum=' . $i . '">
-                                                                                          ' . $i . '
-                                                                                    </a>
-                                                                              </li>
-                                                                                    ';
-                                                                        } else {
-                                                                              echo '<li class="pagination-item ">
-                                                                                    <a class="pagination-page-link" href="index.php?act=product&pagenum=' . $i . '">
-                                                                                          ' . $i . '
-                                                                                    </a>
-                                                                              </li>';
-                                                                        }
-                                                                        ?>
-
                                                                   <?php } ?>
-                                                                  <?php if ($pagenum < $last_page  ) { ?>
+
+                                                                  <?php if ($pagenum - 2 > 0) : ?>
+                                                                        <li class="pagination-item">
+                                                                              <a class="pagination-page-link" href="index.php?act=product&pagenum=<?= $pagenum - 2 ?>">
+                                                                                    <?= $pagenum - 2 ?>
+                                                                              </a>
+                                                                        </li>
+                                                                  <?php endif ?>
+
+                                                                  <?php if ($pagenum - 1 > 0) : ?>
+                                                                        <li class="pagination-item">
+                                                                              <a class="pagination-page-link" href="index.php?act=product&pagenum=<?= $pagenum - 1 ?>">
+                                                                                    <?= $pagenum - 1 ?>
+                                                                              </a>
+                                                                        </li>
+                                                                  <?php endif ?>
+
+                                                                  <li class="pagination-item active ">
+                                                                        <a class="pagination-page-link" href="index.php?act=product&pagenum=<?= $pagenum?>">
+                                                                              <?= $pagenum ?>
+                                                                        </a>
+                                                                  </li>
+                                                                  <?php if ($pagenum + 1 <= $total) : ?>
                                                                         <li class="pagination-item">
                                                                               <a class="pagination-page-link" href="index.php?act=product&pagenum=<?= $pagenum + 1 ?>">
+                                                                                    <?= $pagenum + 1 ?>
+                                                                              </a>
+                                                                        </li>
+                                                                  <?php endif ?>
+
+                                                                  <?php if ($pagenum + 2 <= $total) : ?>
+                                                                        <li class="pagination-item">
+                                                                              <a class="pagination-page-link" href="index.php?act=product&pagenum=<?= $pagenum + 2 ?>">
+                                                                                    <?= $pagenum + 2 ?>
+                                                                              </a>
+                                                                        </li>
+                                                                  <?php endif ?>
+
+                                                                  <?php if ($pagenum < $total) : ?>
+                                                                        <li class="pagination-item">
+                                                                              <a class="pagination-page-link" href="index.php?act=product&pagenum=<?= $pagenum + 2 ?>">
                                                                                     <i class="fa-sharp fa-solid fa-angle-right"></i>
                                                                               </a>
                                                                         </li>
-                                                                  <?php } ?>
-                                                                  
+                                                                  <?php endif ?>
+
+
 
                                                             </ul>
                                                       </nav>

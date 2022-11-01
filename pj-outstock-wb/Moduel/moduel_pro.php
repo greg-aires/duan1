@@ -34,14 +34,6 @@
         $sql = "INSERT INTO product (name_pro,price,img,name_cate) VALUES ('$name_pro','$price_pro','$img_pro','$valu_cate')";
         $conn->exec($sql);
     }
-    function count_pro(){
-        $conn = connect_db();
-        $stmt = $conn->prepare("SELECT COUNT(*) FROM product WHERE status = 1 ");
-        $stmt->execute();
-        $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
-        $kq = $stmt -> fetchColumn();
-        return $kq;
-    }
     function get_pro($from_pro,$per_page){
         $conn = connect_db();
         $stmt = $conn->prepare("SELECT * FROM product LIMIT $from_pro,$per_page ");
@@ -63,5 +55,10 @@
         $kq = $stmt -> fetchAll();
         return $kq;
     }
-     
+    // hàm hiển thị số lượng sản phẩm
+    function gettotal(){
+        $conn = connect_db();
+        $total_products = $conn->query('SELECT * FROM product ')->rowCount();
+        return $total_products;
+    }
 ?>

@@ -136,22 +136,22 @@ ob_start();
                         <div class="c-5 col">
                               <div class="sidebar-content">
                                     <?php 
-                                    foreach ($_SESSION['viewcart'] as  $value) {
+                                    foreach ($_SESSION['viewcart'] as  $value) : ?>
                                           echo'<table class="sidebar__table">
                                           <tr class="product__item">
                                                 <td class="product__image">
-                                                      <img src="' . $value[3] . '" alt="">
+                                                      <img src="<?= $value[3] ?>" alt="">
                                                 </td>
                                                 <td class="product__desc">
-                                                      ' . $value[1] . '
+                                                      <?= $value[1] ?>
                                                 </td>
                                                 <td class="product__price">
-                                                      <span>$' . $value[2] . '</span>
+                                                      <span>$<?= $value[2] ?></span>
                                                 </td>
                                           </tr>
-                                    </table>';
-                                    }
-                                    ?>
+                                    </table>
+                                    <?php endforeach ?>
+                                    
 
 
 

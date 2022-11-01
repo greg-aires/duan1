@@ -31,8 +31,8 @@
                         <div class="cart-content">
                               <?php
                               $i = 0;
-                              if (isset($_SESSION['viewcart'])) {
-                                    echo '<form action="checkout.php" method="POST" novalidate class="cart-form">
+                              if (isset($_SESSION['viewcart'])) {?>
+                                          <form action="checkout.php" method="POST" novalidate class="cart-form">
                                                 <div class="cart-table">
                                                       <div class="cart-header-label">
                                                             <div class="c-2">
@@ -44,57 +44,58 @@
                                                             <div class="c-2 text-right">
                                                                   Total
                                                             </div>
-                                                      </div>';
-                                    $total = 0;
+                                                      </div>
+                                    <?php $total = 0;
                                     foreach ($_SESSION['viewcart'] as  $value) {
                                           // var_dump($value);
                                           $total_price = $value[2] * $value[4];
                                           $total += $total_price;
-                                          
-                                          
-                                          echo '
-                                                      <div class="cart-item-wrap">
-                                                            <div class="row-flex no-gutter">
-                                                            
-                                                                  <div class="c-2">
-                                                                        <a href="#" class="cart-image">
-                                                                              <img src="' . $value[3] . '" alt="">
-                                                                        </a>
-                                                                  </div>
-                                                                  <div class="c-8">
-                                                                        <a href="#" class="cart-name">
-                                                                              ' . $value[1] . '
-                                                                        </a>
-                                                                        <p>velatheme</p>
-                                                                        <div class="cart-price">
-                                                                              <span class="cart-price-product text-right">
-                                                                                    <span class="money">$' . $value[2] . '</span>
-                                                                              </span>
-                                                                        </div>
-                                                                        <div class="cart-group row-flex align-items" data-label="Quantity">
-                                                                              <div class="cart-quantity">
-                                                                                    <button class="cart-qty-minus">
-                                                                                          <span>-</span>
-                                                                                    </button>
-                                                                                    <input type="text" value="1" min="1" pattern="[0-9]*">
-                                                                                    <button class="cart-qty-plus">
-                                                                                          <span>+</span>
-                                                                                    </button>
-                                                                              </div>
-                                                                              <input type="submit" name="update" class="btn btn-update-cart" value="Update Cart">
-                                                                              <a class="cart-remove" href="./index.php?act=delonecart&id=' . $i . '">Remove</a>
-                                                                        </div>
-                                                                  </div>
-                                                                  <div class="c-2 text-right">
-                                                                        <span class="cart-total">
-                                                                              <span class="money">$' . $total_price . '</span>
-                                                                        </span>
-                                                                  </div>
+                                          // if ($value[0] == $_POST['id'] && $value[0] > 0) {
+                                          //       $value[4] += $_POST['amountpro-sell'];
+                                          // }
+                                          ?>
+                                          <div class="cart-item-wrap">
+                                                <div class="row-flex no-gutter">
+                                                
+                                                      <div class="c-2">
+                                                            <a href="#" class="cart-image">
+                                                                  <img src="<?= $value[3] ?>" alt="">
+                                                            </a>
+                                                      </div>
+                                                      <div class="c-8">
+                                                            <a href="#" class="cart-name">
+                                                                  <?= $value[1] ?>
+                                                            </a>
+                                                            <p>velatheme</p>
+                                                            <div class="cart-price">
+                                                                  <span class="cart-price-product text-right">
+                                                                        <span class="money">$<?= $value[2] ?></span>
+                                                                  </span>
                                                             </div>
-                                                      </div>';
-                                                $i++;
-                                    }
-                                    echo '</div>
+                                                            <div class="cart-group row-flex align-items" data-label="Quantity">
+                                                                  <div class="cart-quantity">
+                                                                        <button class="cart-qty-minus">
+                                                                              <span>-</span>
+                                                                        </button>
+                                                                        <input type="text" value="1" min="1" pattern="[0-9]*">
+                                                                        <button class="cart-qty-plus">
+                                                                              <span>+</span>
+                                                                        </button>
+                                                                  </div>
+                                                                  <input type="submit" name="update" class="btn btn-update-cart" value="Update Cart">
+                                                                  <a class="cart-remove" href="./index.php?act=delonecart&id=<?= $i ?>">Remove</a>
+                                                            </div>
+                                                      </div>
+                                                      <div class="c-2 text-right">
+                                                            <span class="cart-total">
+                                                                  <span class="money">$<?= $total_price?></span>
+                                                            </span>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    <?php $i++; ?>
+                              <?php } ?>
+                                          </div>
                                                 <div class="function-cart row-flex">
                                                       <div class="c-7 col">
                                                             <div class="cart-btn-note">
@@ -110,7 +111,7 @@
                                                                         Subtotal:
                                                                   </span>
                                                                   <span class="cart-subtotal">
-                                                                        <div class="money">$'.$total.'</div>
+                                                                        <div class="money">$<?= $total?></div>
                                                                   </span>
                                                             </div>
                                                             <div class="cart-shipping">
@@ -127,11 +128,10 @@
                                                 </div>
 
                                                 <input type="hidden" name="total" value="'.$total.'">
-                                            </form>';
-                              } else{
-                                    echo'<p>Your cart is currently empty.</p>';
-                              }
-                              ?>
+                                          </form>
+                              <?php } else{ ?>
+                                    <p>Your cart is currently empty.</p>';
+                              <?php } ?>
                         </div>
                   </div>
             </div>

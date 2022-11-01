@@ -33,37 +33,37 @@
                                     <?php 
                                     $i =0;
                                     $total = 0;
-                                          foreach ($_SESSION['viewcart'] as $value) {
-                                                
+                                          foreach ($_SESSION['viewcart'] as $value) : ?>
+                                                <?php   
                                                 $total_price = $value[2] * $value[4];
                                                 $total += $total_price;
-                                          echo'
+                                                ?>
                                           <div class="drawer-product">
                                                 <div class="drawer-product-image">
                                                       <a href="#" class="drawer-product-link">
-                                                            <img class="drawer-image" src="'.$value[3].'" alt="">
+                                                            <img class="drawer-image" src="<?= $value[3] ?>" alt="">
                                                       </a>
                                                 </div>
                                                 <div class="drawer-product-content">
                                                       <div class="drawer-product-title">
-                                                            <a href="#">'.$value[1].'</a>
+                                                            <a href="#"><?= $value[1] ?></a>
                                                       </div>
                                                       <div class="drawer-product-price">
                                                             <div class="drawer-price-product">
-                                                                  <span class="money">$'.$value[2].'</span>
+                                                                  <span class="money">$<?= $value[2] ?></span>
                                                             </div>
                                                       </div>
                                                       <div class="drawer-product-delete">
-                                                            <a href="./index.php?act=delonecart&id=' . $i . '">
+                                                            <a href="./index.php?act=delonecart&id=<?= $i ?>">
                                                                   <span>Remove</span>
                                                             </a>
                                                       </div>
                                                 </div>
-                                          </div>';
-                                          $i++;
-                                          }
+                                          </div>
+                                          <?php $i++; ?>
+                                          <?php endforeach ?>
 
-                                    ?>
+                                    
                                     
                                     <div class="drawer-note">
                                           <div class="drawer-note-cart">

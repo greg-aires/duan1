@@ -61,8 +61,6 @@ include '../Moduel/moduel_pro.php';
                     } else {
                         $amount = $_POST['amountpro-sell'];
                     }
-                    
-                    
                 }
                 $arr = array($id, $name_cart, $price_cart, $img_cart, $amount);
                 $_SESSION['viewcart'][] = $arr;
@@ -80,6 +78,7 @@ include '../Moduel/moduel_pro.php';
                 break;
             case 'checkout':
                 header('location: checkout.php');
+                break;
         }
     } else {
         include './home.php';

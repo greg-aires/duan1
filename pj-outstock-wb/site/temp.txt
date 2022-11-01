@@ -518,3 +518,5 @@
 
 
             <?php echo substr($product['short_description'],0,50) ?>'... 
+            $arr = array($id, $name_cart, $price_cart, $img_cart, $amount);
+                $_SESSION['viewcart'][] = $arr;

@@ -47,7 +47,6 @@
                                                       </div>
                                     <?php $total = 0;
                                     foreach ($_SESSION['viewcart'] as  $value) {
-                                          // var_dump($value);
                                           $total_price = $value[2] * $value[4];
                                           $total += $total_price;
                                           // if ($value[0] == $_POST['id'] && $value[0] > 0) {
@@ -127,7 +126,7 @@
                                                       </div>
                                                 </div>
 
-                                                <input type="hidden" name="total" value="'.$total.'">
+                                                <input type="hidden" name="total" value="<?= $total ?>">
                                           </form>
                               <?php } else{ ?>
                                     <p>Your cart is currently empty.</p>';

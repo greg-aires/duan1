@@ -62,9 +62,6 @@
                                           </div>
                                           <?php $i++; ?>
                                           <?php endforeach ?>
-
-                                    
-                                    
                                     <div class="drawer-note">
                                           <div class="drawer-note-cart">
                                                 <a class="drawer-note-btn" href="#">

@@ -18,7 +18,7 @@ include '../Moduel/moduel_pro.php';
 
 <body>
     <input type="hidden" value="">
-<?php
+    <?php
     include './header.php';
     if (isset($_GET['act'])) {
         switch ($_GET['act']) {
@@ -40,7 +40,7 @@ include '../Moduel/moduel_pro.php';
             case 'detail':
                 if (isset($_GET['id'])) {
                     $id = $_GET['id'];
-                    $kq=getone_pro($id);
+                    $kq = getone_pro($id);
                 }
                 include './detail.php';
                 break;
@@ -51,30 +51,31 @@ include '../Moduel/moduel_pro.php';
                 include './view-cart.php';
                 break;
             case 'addtocart':
-                if ( isset($_POST['add-cart'])) {
+                if (isset($_POST['add-cart'])) {
                     $id = $_POST['id'];
                     $name_cart = $_POST['namepro-sell'];
                     $price_cart = $_POST['pricepro-sell'];
                     $img_cart = $_POST['imgpro-sell'];
                     if (!isset($_POST['amountpro-sell'])) {
-                          $amount = 1;
-                         
-                    }else {
-                          $amount = $_POST['amountpro-sell']; 
+                        $amount = 1;
+                    } else {
+                        $amount = $_POST['amountpro-sell'];
                     }
-                    $arr = array($id, $name_cart, $price_cart, $img_cart, $amount);
-                        $_SESSION['viewcart'][] = $arr;
+                    
+                    
                 }
+                $arr = array($id, $name_cart, $price_cart, $img_cart, $amount);
+                $_SESSION['viewcart'][] = $arr;
                 header('location: index.php?act=view_cart');
                 break;
-            
+
             case 'delonecart':
                 if (isset($_GET['id'])) {
-                    array_splice($_SESSION['viewcart'],$_GET['id'],1);
-                }else{
+                    array_splice($_SESSION['viewcart'], $_GET['id'], 1);
+                } else {
                     unset($_SESSION['viewcart']);
                 }
-                
+
                 header('location: index.php?act=view_cart');
                 break;
             case 'checkout':
@@ -86,13 +87,14 @@ include '../Moduel/moduel_pro.php';
     include './footer.php';
     ?>
 </body>
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    <script src="./public/javascript/Slide-show.js"></script>
-    <script src="./public/javascript/Slider-card.js"></script>
-    <script src="./public/javascript/Slide-logo.js"></script>
-    <script src="./public/javascript/Slide-blog.js"></script>
-    <script src="./public/javascript/Tab-Form.js"></script>
-    <script src="./public/javascript/Show-hide.js"></script>
-    <script src="./public/javascript/Script.js"></script>
-    <script src="./public/javascript/Shopping-cart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="./public/javascript/Slide-show.js"></script>
+<script src="./public/javascript/Slider-card.js"></script>
+<script src="./public/javascript/Slide-logo.js"></script>
+<script src="./public/javascript/Slide-blog.js"></script>
+<script src="./public/javascript/Tab-Form.js"></script>
+<script src="./public/javascript/Show-hide.js"></script>
+<script src="./public/javascript/Script.js"></script>
+<script src="./public/javascript/Shopping-cart.js"></script>
+
 </html>

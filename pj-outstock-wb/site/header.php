@@ -27,7 +27,7 @@
                   <span>Shopping cart</span>
             </h3>
             <div class="cart-drawer-container">
-                  <form action="checkout.php" class="cart-drawer-form" method="POST">
+                  <form action="checkout.php" class="cart-drawer-form"  method="POST">
                         <div class="cart-drawer-inner">
                               <div class="cart-drawer-product">
                                     <?php 
@@ -91,7 +91,7 @@
                                                             <a href="index.php?act=view_cart" type="submit" class="btn btn-drawer">View Cart</a>
                                                       </div>
                                                       <div class="drawer-button-box">
-                                                            <a href="checkout.php" type="submit" class="btn btn-checkout">Check Out</a>
+                                                            <button type="submit" name="checkout" class="btn btn-checkout">Check Out</button>
                                                       </div>
                                                 </div>
                                           </div>

@@ -31,7 +31,7 @@
                         <div class="cart-content">
                               <?php
                               $i = 0;
-                              if (isset($_SESSION['viewcart']) && count($_SESSION['viewcart']) > 0) {
+                              if (isset($_SESSION['viewcart'])) {
                                     echo '<form action="checkout.php" method="POST" novalidate class="cart-form">
                                                 <div class="cart-table">
                                                       <div class="cart-header-label">
@@ -47,8 +47,10 @@
                                                       </div>';
                                     $total = 0;
                                     foreach ($_SESSION['viewcart'] as  $value) {
+                                          // var_dump($value);
                                           $total_price = $value[2] * $value[4];
                                           $total += $total_price;
+                                          
                                           
                                           echo '
                                                       <div class="cart-item-wrap">
@@ -115,9 +117,9 @@
                                                                   Shipping, taxes, and discounts will be calculated at checkout.
                                                             </div>
                                                             <div class="function-cart-button">
-                                                                  <input type="submit" name="update" class="btn btn-update-cart" value="Update Cart">
+                                                                  <button type="submit" name="update" class="btn btn-update-cart">Update Cart</button>
                                                                   
-                                                                  <a href="index.php?act=checkout"><input type="submit" name="checkout" class="btn btn-checkout-cart" value="Check Out"></a>
+                                                                  <button type="submit" name="checkout" class="btn btn-checkout-cart" >Check Out</button>
                                                                   
                                                                   
                                                             </div>

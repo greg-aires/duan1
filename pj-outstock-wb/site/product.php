@@ -29,23 +29,15 @@
                                     <aside class="vela-aside col">
                                           <div class="categories">
                                                 <h3 class="vela-title">Categories</h3>
+                                                <?php $getAllTag = getall_cate(); ?>
+                                                
                                                 <div class="categories-content">
                                                       <ul class="categories-list">
+                                                      <?php foreach ($getAllTag as  $tag) : ?>
                                                             <li class="categories-item">
-                                                                  <a class="categories-item-link" href="#">Furniture</a>
+                                                                  <a class="categories-item-link" href="#"><?= $tag['name_cate']?></a>
                                                             </li>
-                                                            <li class="categories-item">
-                                                                  <a class="categories-item-link" href="#">Kitchen Things</a>
-                                                            </li>
-                                                            <li class="categories-item">
-                                                                  <a class="categories-item-link" href="#">Decor Art</a>
-                                                            </li>
-                                                            <li class="categories-item">
-                                                                  <a class="categories-item-link" href="#">lllumination</a>
-                                                            </li>
-                                                            <li class="categories-item">
-                                                                  <a class="categories-item-link" href="#">New Products</a>
-                                                            </li>
+                                                      <?php endforeach ?>
                                                       </ul>
                                                 </div>
                                           </div>
@@ -81,21 +73,22 @@
                                                       </ul>
                                                 </div>
                                           </div>
-                                          <!-- <div class="filter">
+                                          <div class="filter">
                                                 <h3 class="vela-title">Filter by price</h3>
                                                 <div class="filter-content">
                                                       <div class="filter-price">
                                                             <span class="filter-span">
-                                                                  <span class="filter-bar" style="left: 3%; width: 94%;"></span>
+                                                                  <span class="filter-bar" id="price-range" onmouseup="price();" ></span>
                                                                   <span class="filter-circle from"></span>
                                                                   <span class="filter-circle to"></span>
                                                             </span>
+                                                            
                                                       </div>
                                                       <div class="filter-btn">
                                                             <button class="btn btn-filter-price">Filter</button>
                                                       </div>
                                                 </div>
-                                          </div> -->
+                                          </div>
                                           <div class="best-seller">
                                                 <h3 class="vela-title">Best sellers</h3>
                                                 <div class="best-seller-content">

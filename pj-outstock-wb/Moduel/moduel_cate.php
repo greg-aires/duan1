@@ -1,7 +1,7 @@
 <?php 
     function getall_cate(){
         $conn = connect_db();
-        $stmt = $conn->prepare("SELECT * FROM category");
+        $stmt = $conn->prepare("SELECT * FROM category ORDER BY id DESC");
         $stmt->execute();
         $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
         $kq = $stmt -> fetchAll();

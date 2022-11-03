@@ -4,6 +4,7 @@ ob_start();
 include '../Moduel/connectdb.php';
 include '../Moduel/moduel_user.php';
 include '../Moduel/moduel_pro.php';
+include '../Moduel/moduel_cate.php';
 ?>
 
 <!DOCTYPE html>

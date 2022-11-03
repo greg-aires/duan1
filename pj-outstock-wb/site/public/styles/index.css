@@ -2281,6 +2281,7 @@ cursor: pointer;
       -moz-user-select: none;
       -ms-user-select: none;
       user-select: none;
+      width: 85%;
 }
 
 .filter-circle {
@@ -2296,7 +2297,7 @@ cursor: pointer;
       left: 0;
 }
 .filter-circle.to {
-      right: 94%;
+      left: 100%;
 }
 .filter-bar {
       height: 6px;
@@ -2304,6 +2305,8 @@ cursor: pointer;
       background: var(--vela-color-primary);
       position: absolute;
       display: block;
+      left: 3%;
+      width: 100%;
 }
 .btn-filter-price {
       background-color: transparent;

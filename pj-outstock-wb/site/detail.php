@@ -8,8 +8,8 @@
                               </a>
                         </li>
                         <?php
-                              foreach ($kq as  $value) {
-                                    echo '
+                        foreach ($kq as  $value) {
+                              echo '
                               <li>
                                     <a href="#">
                                           <span>
@@ -22,7 +22,7 @@
                                           ' . $value['name_pro'] . ';
                                     </span>
                               </li>';
-                              }
+                        }
                         ?>
                   </ol>
             </div>
@@ -65,10 +65,10 @@
                               <div class="detail-product-info">
                                     <?php
                                     foreach ($kq as  $value) {
-                                          echo '<h1>'.$value['name_pro'].'</h1>' ;
+                                          echo '<h1>' . $value['name_pro'] . '</h1>';
                                     }
                                     ?>
-                                    
+
                                     <div class="detail-product-review">
                                           <span class="detail-review">
                                                 <span class="detail-rating">
@@ -101,7 +101,7 @@
                                           </div>
                                     </div>
                                     <div class="detail-product-desc">
-                                          <?php echo substr($value['discribe'],0,50) ?>...
+                                          <?php echo substr($value['discribe'], 0, 50) ?>...
                                     </div>
                                     <div class="detail-product-wrapper">
                                           <form class="detail-product-addcart" action="index.php?act=addtocart" method="POST">
@@ -132,12 +132,12 @@
                                                             </button>
                                                       </div>
                                                 </div>
-                                                <?php 
-                                                echo'
-                                                <input type="hidden" name="id" value="'.$value['id'].'">
-                                                <input type="hidden" name="namepro-sell" value="'.$value['name_pro'].'">
-                                                <input type="hidden" name="pricepro-sell" value="'.$value['price'].'">
-                                                <input type="hidden" name="imgpro-sell" value="'.$value['img'].'">
+                                                <?php
+                                                echo '
+                                                <input type="hidden" name="id" value="' . $value['id'] . '">
+                                                <input type="hidden" name="namepro-sell" value="' . $value['name_pro'] . '">
+                                                <input type="hidden" name="pricepro-sell" value="' . $value['price'] . '">
+                                                <input type="hidden" name="imgpro-sell" value="' . $value['img'] . '">
                                                 ';
                                                 ?>
                                           </form>
@@ -265,36 +265,80 @@
                                                       Based on 4 reviews
                                                 </span>
                                                 <span class="spr-action">
-                                                      <a href="#">Write a review</a>
+                                                      <a class="accordion" href="#!">Write a review</a>
                                                 </span>
                                           </div>
                                           <div class="spr-content">
-                                                <div class="spr-form">
-                                                      <div class="spr-reviews">
-                                                            <div class="spr-review">
-                                                                  <div class="spr-review-header">
-                                                                        <span class="spr-review-header-star">
-                                                                              <i class="fa-regular fa-star"></i>
-                                                                              <i class="fa-regular fa-star"></i>
-                                                                              <i class="fa-regular fa-star"></i>
-                                                                              <i class="fa-regular fa-star"></i>
-                                                                              <i class="fa-regular fa-star"></i>
-                                                                        </span>
-                                                                        <h3 class="spr-review-header-title">nice</h3>
-                                                                        <span class="spr-review-header-byline">
-                                                                              <strong>Munir Hossain</strong>
-                                                                              on
-                                                                              <strong>Oct 07, 2020</strong>
-                                                                        </span>
+                                                <div class="spr-form panel">
+                                                      <form action="" method="post">
+                                                            <input type="hidden" name="">
+                                                            <input type="hidden" name="">
+                                                            <h3 class="spr-form-title">Write a review</h3>
+                                                            <fieldset class="spr-form-contact">
+                                                                  <div class="spr-form-contact-name">
+                                                                        <label class="spr-form-label" for="">Name</label>
+                                                                        <input class="spr-form-input spr-form-input-text " type="text" value placeholder="Enter your name">
                                                                   </div>
-                                                                  <div class="spr-review-content">
-                                                                        <p class="spr-review-content-body">
-                                                                              Hiệp là đồ con chó =)))
-                                                                        </p>
+                                                                  <div class="spr-form-contact-email">
+                                                                        <label for="">Email</label>
+                                                                        <input type="text" value placeholder="john.smith@example.com">
                                                                   </div>
-                                                                  <div class="spr-review-footer">
-                                                                        <a href="#" class="spr-review-reportreview">Report as Inappropriate</a>
+                                                            </fieldset>
+                                                            <fieldset>
+                                                                  <div>
+                                                                        <label for="">Rating</label>
+                                                                        <div>
+                                                                              <a href="#!"><i class="fa-regular fa-star"></i></a>
+                                                                              <a href="#!"><i class="fa-regular fa-star"></i></a>
+                                                                              <a href="#!"><i class="fa-regular fa-star"></i></a>
+                                                                              <a href="#!"><i class="fa-regular fa-star"></i></a>
+                                                                              <a href="#!"><i class="fa-regular fa-star"></i></a>
+                                                                        </div>
                                                                   </div>
+                                                                  <div>
+                                                                        <label for="">Review Title</label>
+                                                                        <input type="text" placeholder="Give your review a title">
+                                                                  </div>
+                                                                  <div>
+                                                                        <label for="">Body of Review
+                                                                              <span>
+                                                                                    <span>(1500)</span>
+                                                                                    <span></span>
+                                                                              </span>
+                                                                        </label>
+                                                                        <div>
+                                                                              <textarea name="" id="" rows="10" placeholder="Write your comments here"></textarea>
+                                                                        </div>
+                                                                  </div>
+                                                            </fieldset>
+                                                            <fieldset></fieldset>
+                                                      </form>
+
+                                                </div>
+                                                <div class="spr-reviews">
+                                                      <div class="spr-review">
+                                                            <div class="spr-review-header">
+                                                                  <span class="spr-review-header-star">
+                                                                        <i class="fa-regular fa-star"></i>
+                                                                        <i class="fa-regular fa-star"></i>
+                                                                        <i class="fa-regular fa-star"></i>
+                                                                        <i class="fa-regular fa-star"></i>
+                                                                        <i class="fa-regular fa-star"></i>
+                                                                  </span>
+                                                                  <h3 class="spr-review-header-title">nice</h3>
+                                                                  <span class="spr-review-header-byline">
+                                                                        <strong>Munir Hossain</strong>
+                                                                        on
+                                                                        <strong>Oct 07, 2020</strong>
+                                                                  </span>
+                                                            </div>
+                                                            <div class="spr-review-content">
+                                                                  <p class="spr-review-content-body">
+                                                                        Hiệp là đồ con chó =)))
+                                                                  </p>
+                                                            </div>
+                                                            <div class="spr-review-footer">
+                                                                  <a href="#" class="spr-review-reportreview">Report as Inappropriate</a>
                                                             </div>
                                                       </div>
                                                 </div>
@@ -306,7 +350,3 @@
             </div>
       </div>
 </main>
-
-<script>
-      
-</script>

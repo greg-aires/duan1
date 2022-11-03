@@ -1,4 +1,4 @@
-      <main class="main-content" role="main">
+<main class="main-content" role="main">
             <div class="banner-pages">
                   <div class="banner-content">
                         <div class="banner-images">

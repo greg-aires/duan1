@@ -37,16 +37,16 @@ ob_start();
                                     </a>
                                     <ul class="header__list">
                                           <li>
-                                                <a href="#">Cart</a><i class="fa-solid fa-angle-right"></i>
+                                                <a href="#">Giỏ hàng</a><i class="fa-solid fa-angle-right"></i>
                                           </li>
                                           <li>
-                                                <a href="#">Information</a><i class="fa-solid fa-angle-right"></i>
+                                                <a href="#">Thông tin</a><i class="fa-solid fa-angle-right"></i>
                                           </li>
                                           <li>
-                                                <a href="#">Shipping</a><i class="fa-solid fa-angle-right"></i>
+                                                <a href="#">Đang chuyển hàng</a><i class="fa-solid fa-angle-right"></i>
                                           </li>
                                           <li>
-                                                <a href="#">Payment</a><i class="fa-solid fa-angle-right"></i>
+                                                <a href="#">Thanh toán</a><i class="fa-solid fa-angle-right"></i>
                                           </li>
                                     </ul>
                               </div>
@@ -54,11 +54,11 @@ ob_start();
                                     <div class="main__info">
                                           <div class="info__header">
                                                 <h2 class="info__header-title">
-                                                      Contact information
+                                                      Thông tin liên lạc
                                                 </h2>
                                                 <p class="info__header-account">
-                                                      Already have an account?
-                                                      <a href="#">Log in</a>
+                                                     Bạn có sẳn sàng để tạo một tài khoản?
+                                                      <a href="#">Đăng nhập</a>
                                                 </p>
                                           </div>
                                           <div class="info__content">
@@ -68,7 +68,7 @@ ob_start();
                                                 <div class="info__content-desc">
                                                       <input id="checkbox__contact-info" type="checkbox">
                                                       <label for="checkbox__contact-info">
-                                                            Email me with news and offers
+                                                            Gửi email cho tôi với tin tức và ưu đãi
                                                       </label>
                                                 </div>
                                           </div>
@@ -76,13 +76,13 @@ ob_start();
                                     <div class="main__shipping">
                                           <div class="shipping__header">
                                                 <h2 class="shipping__header-title">
-                                                      Shipping address
+                                                      Địa chỉ giao hàng
                                                 </h2>
                                           </div>
                                           <div class="shipping__content">
                                                 <form action="#" method="post" class="shipping__form">
                                                       <div class="field">
-                                                            <label for="select-place">Country/region</label>
+                                                            <label for="select-place">Quốc gia / khu vực</label>
                                                             <select name="" id="select-place">
                                                                   <option value="Qatar">Qatar</option>
                                                             </select>
@@ -107,7 +107,7 @@ ob_start();
                                                       <div class="field__save">
                                                             <input type="checkbox" id="checkbox__save-remember">
                                                             <label for="checkbox__save-remember">
-                                                                  Save this information for next time
+                                                                  Lưu thông tin này cho lần sau
                                                             </label>
                                                       </div>
                                                 </form>
@@ -115,18 +115,18 @@ ob_start();
                                           <div class="shipping__footer">
                                                 <a href="./view-cart.php" class="shipping__link-back">
                                                       <i class="fa-sharp fa-solid fa-angle-left"></i>
-                                                      Return to cart
+                                                      Quay lại giỏ hàng
                                                 </a>
-                                                <button class="btn btn-shipping">Continue to shipping</button>
+                                                <button class="btn btn-shipping">Tiếp tục chuyển hàng</button>
                                           </div>
                                     </div>
                               </div>
                               <div class="checkout-footer">
                                     <ul class="footer__policy-list">
-                                          <li><a href="">Refund policy</a></li>
-                                          <li><a href="">Shipping policy</a></li>
-                                          <li><a href="">Privacy policy</a></li>
-                                          <li><a href="">Terms of service</a></li>
+                                          <li><a href="">Chính sách hoàn lại tiền</a></li>
+                                          <li><a href="">Chính sách vận chuyển</a></li>
+                                          <li><a href="">Chính sách bảo mật</a></li>
+                                          <li><a href="">Điều khoản dịch vụ</a></li>
                                     </ul>
                               </div>
                         </div>
@@ -136,22 +136,22 @@ ob_start();
                         <div class="c-5 col">
                               <div class="sidebar-content">
                                     <?php 
-                                    foreach ($_SESSION['viewcart'] as  $value) : ?>
+                                    foreach ($_SESSION['viewcart'] as  $value) {
                                           echo'<table class="sidebar__table">
                                           <tr class="product__item">
                                                 <td class="product__image">
-                                                      <img src="<?= $value[3] ?>" alt="">
+                                                      <img src="' . $value[3] . '" alt="">
                                                 </td>
                                                 <td class="product__desc">
-                                                      <?= $value[1] ?>
+                                                      ' . $value[1] . '
                                                 </td>
                                                 <td class="product__price">
-                                                      <span>$<?= $value[2] ?></span>
+                                                      <span>$' . $value[2] . '</span>
                                                 </td>
                                           </tr>
-                                    </table>
-                                    <?php endforeach ?>
-                                    
+                                    </table>';
+                                    }
+                                    ?>
 
 
 
@@ -161,25 +161,25 @@ ob_start();
                                           <table class="sibar__table-order">
                                                 <tbody>
                                                       <tr class="total subtotal">
-                                                            <th>Subtotal</th>
+                                                            <th>Tổng phụ</th>
                                                             <td><?= $total ?></td>
                                                       </tr>
                                                       <tr class="total shipping">
-                                                            <th>Shipping</th>
+                                                            <th>Đang chuyển hàng</th>
                                                             <td><?= $ship ?></td>
                                                       </tr>
                                                       <tr class="total taxes">
                                                             <th>
-                                                                  Taxes (estimated)
+                                                                  Thuế (ước tính)
                                                             </th>
                                                             <td><?= $tax ?></td>
                                                       </tr>
                                                 </tbody>
                                                 <tfoot>
                                                       <tr class="total">
-                                                            <th>Total</th>
+                                                            <th>Tổng cộng</th>
                                                             <td>
-                                                                  <span>USD</span>
+                                                                  <span>VND</span>
                                                                   <span>
                                                                         <?= $bill ?>
                                                                   </span>

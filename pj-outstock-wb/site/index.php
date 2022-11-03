@@ -64,6 +64,7 @@ include '../Moduel/moduel_pro.php';
                 }
                 $arr = array($id, $name_cart, $price_cart, $img_cart, $amount);
                 $_SESSION['viewcart'][] = $arr;
+                
                 header('location: index.php?act=view_cart');
                 break;
 
@@ -94,6 +95,5 @@ include '../Moduel/moduel_pro.php';
 <script src="./public/javascript/Tab-Form.js"></script>
 <script src="./public/javascript/Show-hide.js"></script>
 <script src="./public/javascript/Script.js"></script>
-<script src="./public/javascript/Shopping-cart.js"></script>
 
 </html>

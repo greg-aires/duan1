@@ -6,15 +6,15 @@
                         </div>
                         <nav class="banner-navbar container">
                               <div class="banner-navbar__wrap">
-                                    <h1>News</h1>
+                                    <h1>Mới</h1>
                                     <ol class="banner-list">
                                           <li class="banner-list-item">
                                                 <a href="#">
-                                                      <span>Home</span>
+                                                      <span>Trang chủ</span>
                                                 </a>
                                           </li>
                                           <li class="banner-list-item active">
-                                                <span>News</span>
+                                                <span>Mới</span>
                                           </li>
                                     </ol>
                               </div>
@@ -39,17 +39,17 @@
                                                             </h3>
                                                             <div class="blog-meta">
                                                                   <span class="blog-author">
-                                                                        <span>By</span>
+                                                                        <span>Bởi</span>
                                                                         Mr Admin
                                                                   </span>
                                                                   <span>/</span>
-                                                                  <span class="blog-publish">November 16, 2017</span>
+                                                                  <span class="blog-publish">11/16, 2022</span>
                                                             </div>
                                                             <div class="blog-desc">
-                                                                  Diga, Koma and Torus are three kitchen utensils designed for Ommo, a new design-oriented brand...
+                                                            Diga, Koma và Torus là ba dụng cụ nhà bếp được thiết kế cho Ommo, một thương hiệu theo định hướng thiết kế mới ...
                                                             </div>
                                                             <div class="btn btn-blog">
-                                                                  Read More
+                                                                  Đọc thêm
                                                             </div>
                                                       </div>
                                                 </div>
@@ -67,17 +67,16 @@
                                                             </h3>
                                                             <div class="blog-meta">
                                                                   <span class="blog-author">
-                                                                        <span>By</span>
+                                                                        <span>Bởi</span>
                                                                         Mr Admin
                                                                   </span>
                                                                   <span>/</span>
-                                                                  <span class="blog-publish">November 16, 2017</span>
+                                                                  <span class="blog-publish">11/16, 2022</span>
                                                             </div>
                                                             <div class="blog-desc">
-                                                                  Diga, Koma and Torus are three kitchen utensils designed for Ommo, a new design-oriented brand...
-                                                            </div>
+                                                                  Diga, Koma và Torus là ba dụng cụ nhà bếp được thiết kế cho Ommo, một thương hiệu theo định hướng thiết kế mới ...                                                            </div>
                                                             <div class="btn btn-blog">
-                                                                  Read More
+                                                                 Đọc thêm
                                                             </div>
                                                       </div>
                                                 </div>
@@ -95,17 +94,17 @@
                                                             </h3>
                                                             <div class="blog-meta">
                                                                   <span class="blog-author">
-                                                                        <span>By</span>
+                                                                        <span>Bởi</span>
                                                                         Mr Admin
                                                                   </span>
                                                                   <span>/</span>
-                                                                  <span class="blog-publish">November 16, 2017</span>
+                                                                  <span class="blog-publish">11/16, 2022</span>
                                                             </div>
                                                             <div class="blog-desc">
-                                                                  Diga, Koma and Torus are three kitchen utensils designed for Ommo, a new design-oriented brand...
+                                                            Diga, Koma và Torus là ba dụng cụ nhà bếp được thiết kế cho Ommo, một thương hiệu theo định hướng thiết kế mới ...Diga, Koma and Torus are three kitchen utensils designed for Ommo, a new design-oriented brand...
                                                             </div>
                                                             <div class="btn btn-blog">
-                                                                  Read More
+                                                                  Đọc thêm
                                                             </div>
                                                       </div>
                                                 </div>
@@ -123,17 +122,17 @@
                                                             </h3>
                                                             <div class="blog-meta">
                                                                   <span class="blog-author">
-                                                                        <span>By</span>
+                                                                        <span>Bởi</span>
                                                                         Mr Admin
                                                                   </span>
                                                                   <span>/</span>
-                                                                  <span class="blog-publish">November 16, 2017</span>
+                                                                  <span class="blog-publish">11/16, 2022</span>
                                                             </div>
                                                             <div class="blog-desc">
-                                                                  Diga, Koma and Torus are three kitchen utensils designed for Ommo, a new design-oriented brand...
+                                                            Diga, Koma và Torus là ba dụng cụ nhà bếp được thiết kế cho Ommo, một thương hiệu theo định hướng thiết kế mới ...
                                                             </div>
                                                             <div class="btn btn-blog">
-                                                                  Read More
+                                                                  Đọc thêm
                                                             </div>
                                                       </div>
                                                 </div>
@@ -151,17 +150,17 @@
                                                             </h3>
                                                             <div class="blog-meta">
                                                                   <span class="blog-author">
-                                                                        <span>By</span>
+                                                                        <span>Bởi</span>
                                                                         Mr Admin
                                                                   </span>
                                                                   <span>/</span>
-                                                                  <span class="blog-publish">November 16, 2017</span>
+                                                                  <span class="blog-publish">11/16, 2022</span>
                                                             </div>
                                                             <div class="blog-desc">
-                                                                  Diga, Koma and Torus are three kitchen utensils designed for Ommo, a new design-oriented brand...
+                                                            Diga, Koma và Torus là ba dụng cụ nhà bếp được thiết kế cho Ommo, một thương hiệu theo định hướng thiết kế mới ...
                                                             </div>
                                                             <div class="btn btn-blog">
-                                                                  Read More
+                                                                 Đọc thêm
                                                             </div>
                                                       </div>
                                                 </div>
@@ -179,17 +178,17 @@
                                                             </h3>
                                                             <div class="blog-meta">
                                                                   <span class="blog-author">
-                                                                        <span>By</span>
+                                                                        <span>Bởi</span>
                                                                         Mr Admin
                                                                   </span>
                                                                   <span>/</span>
-                                                                  <span class="blog-publish">November 16, 2017</span>
+                                                                  <span class="blog-publish">11/16, 2022</span>
                                                             </div>
                                                             <div class="blog-desc">
-                                                                  Diga, Koma and Torus are three kitchen utensils designed for Ommo, a new design-oriented brand...
+                                                            Diga, Koma và Torus là ba dụng cụ nhà bếp được thiết kế cho Ommo, một thương hiệu theo định hướng thiết kế mới ...
                                                             </div>
                                                             <div class="btn btn-blog">
-                                                                  Read More
+                                                                  Đọc thêm
                                                             </div>
                                                       </div>
                                                 </div>
@@ -251,59 +250,59 @@
                                           </form>
                                     </div>
                                     <div class="blog-sidebar">
-                                          <h4 class="blog-title-sidebar">Recent Articles</h4>
+                                          <h4 class="blog-title-sidebar">Bài viết gần đây</h4>
                                           <div class="blog-content">
                                                 <ul class="blog-list">
                                                       <li>
                                                             <a href="#">Anteposuerit litterarum formas.</a>
-                                                            <time datetime="2017-11-16">November 16, 2017</time>
+                                                            <time datetime="2017-11-16">11/16, 2022</time>
                                                       </li>
                                                       <li>
                                                             <a href="#">Anteposuerit litterarum formas.</a>
-                                                            <time datetime="2017-11-16">November 16, 2017</time>
+                                                            <time datetime="2017-11-16">11/16, 2022</time>
                                                       </li>
                                                       <li>
                                                             <a href="#">Anteposuerit litterarum formas.</a>
-                                                            <time datetime="2017-11-16">November 16, 2017</time>
+                                                            <time datetime="2017-11-16">11/16, 2022</time>
                                                       </li>
                                                       <li>
                                                             <a href="#">Anteposuerit litterarum formas.</a>
-                                                            <time datetime="2017-11-16">November 16, 2017</time>
+                                                            <time datetime="2017-11-16">11/16, 2022</time>
                                                       </li>
                                                       <li>
                                                             <a href="#">Anteposuerit litterarum formas.</a>
-                                                            <time datetime="2017-11-16">November 16, 2017</time>
+                                                            <time datetime="2017-11-16">11/16, 2022</time>
                                                       </li>
                                                       <li>
                                                             <a href="#">Anteposuerit litterarum formas.</a>
-                                                            <time datetime="2017-11-16">November 16, 2017</time>
+                                                            <time datetime="2017-11-16">11/16, 2022</time>
                                                       </li>
                                                 </ul>
                                           </div>
                                     </div>
                                     <div class="blog-sidebar blog-sidebar-category">
                                           <h3 class="blog-title-sidebar">
-                                                Categories
+                                                Danh mục
                                           </h3>
                                           <div class="blog-content">
                                                 <ul class="blog-list-category">
                                                       <li>
-                                                            <a href="#">Furniture</a>
+                                                            <a href="#">Đồ nội thất</a>
                                                       </li>
                                                       <li>
-                                                            <a href="#">Fashion</a>
+                                                            <a href="#">Thời trang</a>
                                                       </li>
                                                       <li>
-                                                            <a href="#">Education</a>
+                                                            <a href="#">Giáo dục</a>
                                                       </li>
                                                       <li>
-                                                            <a href="#">Travel</a>
+                                                            <a href="#">Du lịch</a>
                                                       </li>
                                                       <li>
-                                                            <a href="#">Construction</a>
+                                                            <a href="#">Thi công</a>
                                                       </li>
                                                       <li>
-                                                            <a href="#">Tech</a>
+                                                            <a href="#">Công nghệ</a>
                                                       </li>
                                                 </ul>
                                           </div>

@@ -32,8 +32,9 @@
                               <div class="cart-drawer-product">
                                     <?php 
                                     $i =0;
-                                    $total = 0;
-                                          foreach ($_SESSION['viewcart'] as $value) : ?>
+                                    $total = 0;?>
+                                    <?php if (!empty($_SESSION['viewcart'])) { ?>
+                                          <?php foreach ($_SESSION['viewcart'] as $value) : ?>
                                                 <?php   
                                                 $total_price = $value[2] * $value[4];
                                                 $total += $total_price;
@@ -62,6 +63,8 @@
                                           </div>
                                           <?php $i++; ?>
                                           <?php endforeach ?>
+                                    
+                                          
                                     <div class="drawer-note">
                                           <div class="drawer-note-cart">
                                                 <a class="drawer-note-btn" href="#">
@@ -94,6 +97,9 @@
                                           </div>
                                     </div>
                               </div>
+                              <?php }else {
+                                          echo 'Your cart is empty';
+                                    }?>
                         </div>
                         <input type="hidden" name="total" value="<?= $total?>">
                   </form>

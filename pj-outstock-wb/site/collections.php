@@ -6,15 +6,15 @@
                         </div>
                         <nav class="banner-navbar container">
                               <div class="banner-navbar__wrap">
-                                    <h1>Collections</h1>
+                                    <h1>Bộ sưu tập</h1>
                                     <ol class="banner-list">
                                           <li class="banner-list-item">
                                                 <a href="#">
-                                                      <span>Home</span>
+                                                      <span>Trang chủ</span>
                                                 </a>
                                           </li>
                                           <li class="banner-list-item active">
-                                                <span>Collections</span>
+                                                <span>Bộ sưu tập</span>
                                           </li>
                                     </ol>
                               </div>
@@ -33,14 +33,14 @@
                                           </div>
                                           <div class="collection-content">
                                                 <h3 class="collection-title">
-                                                      <a href="#">Best Sellter</a>
+                                                      <a href="#">Bán chậy nhất</a>
                                                 </h3>
                                                 <div class="collection-product-count">
-                                                      9 products
+                                                      9 sản phẩm
                                                 </div>
                                                 <div class="collection-button-detail">
                                                       <a href="#">
-                                                            Shop the collection
+                                                            Mua bộ sưu tập
                                                       </a>
                                                 </div>
                                           </div>
@@ -55,14 +55,14 @@
                                           </div>
                                           <div class="collection-content">
                                                 <h3 class="collection-title">
-                                                      <a href="#">Best Sellter</a>
+                                                      <a href="#">Bán chạy nhất</a>
                                                 </h3>
                                                 <div class="collection-product-count">
-                                                      9 products
+                                                      9 sản phẩm
                                                 </div>
                                                 <div class="collection-button-detail">
                                                       <a href="#">
-                                                            Shop the collection
+                                                            Mua bộ sưu tập
                                                       </a>
                                                 </div>
                                           </div>
@@ -77,14 +77,14 @@
                                           </div>
                                           <div class="collection-content">
                                                 <h3 class="collection-title">
-                                                      <a href="#">Best Sellter</a>
+                                                      <a href="#">Bán chạy nhất</a>
                                                 </h3>
                                                 <div class="collection-product-count">
-                                                      9 products
+                                                      9 sản phẩm
                                                 </div>
                                                 <div class="collection-button-detail">
                                                       <a href="#">
-                                                            Shop the collection
+                                                            Mua bộ sưu tập
                                                       </a>
                                                 </div>
                                           </div>
@@ -99,14 +99,14 @@
                                           </div>
                                           <div class="collection-content">
                                                 <h3 class="collection-title">
-                                                      <a href="#">Best Sellter</a>
+                                                      <a href="#">Bán chạy nhất</a>
                                                 </h3>
                                                 <div class="collection-product-count">
-                                                      9 products
+                                                      9 sản phẩm
                                                 </div>
                                                 <div class="collection-button-detail">
                                                       <a href="#">
-                                                            Shop the collection
+                                                            Mua bộ sưu tập
                                                       </a>
                                                 </div>
                                           </div>
@@ -121,14 +121,14 @@
                                           </div>
                                           <div class="collection-content">
                                                 <h3 class="collection-title">
-                                                      <a href="#">Best Sellter</a>
+                                                      <a href="#">Bộ sưu tập</a>
                                                 </h3>
                                                 <div class="collection-product-count">
-                                                      9 products
+                                                      9 sản phẩm
                                                 </div>
                                                 <div class="collection-button-detail">
                                                       <a href="#">
-                                                            Shop the collection
+                                                            Mua bộ sưu tập
                                                       </a>
                                                 </div>
                                           </div>
@@ -143,14 +143,14 @@
                                           </div>
                                           <div class="collection-content">
                                                 <h3 class="collection-title">
-                                                      <a href="#">Best Sellter</a>
+                                                      <a href="#">Bộ sưu tập</a>
                                                 </h3>
                                                 <div class="collection-product-count">
-                                                      9 products
+                                                      9 sản phẩm
                                                 </div>
                                                 <div class="collection-button-detail">
                                                       <a href="#">
-                                                            Shop the collection
+                                                            Mua bộ sưu tập
                                                       </a>
                                                 </div>
                                           </div>
@@ -165,14 +165,14 @@
                                           </div>
                                           <div class="collection-content">
                                                 <h3 class="collection-title">
-                                                      <a href="#">Best Sellter</a>
+                                                      <a href="#">Bán chạy nhất</a>
                                                 </h3>
                                                 <div class="collection-product-count">
-                                                      9 products
+                                                      9 sản phẩm
                                                 </div>
                                                 <div class="collection-button-detail">
                                                       <a href="#">
-                                                            Shop the collection
+                                                            Mua bộ sưu tập
                                                       </a>
                                                 </div>
                                           </div>
@@ -187,14 +187,14 @@
                                           </div>
                                           <div class="collection-content">
                                                 <h3 class="collection-title">
-                                                      <a href="#">Best Sellter</a>
+                                                      <a href="#">Bán chạy nhất</a>
                                                 </h3>
                                                 <div class="collection-product-count">
-                                                      9 products
+                                                      9 sản phẩm
                                                 </div>
                                                 <div class="collection-button-detail">
                                                       <a href="#">
-                                                            Shop the collection
+                                                            Mua bộ sưu tập
                                                       </a>
                                                 </div>
                                           </div>

@@ -3,16 +3,16 @@
                         <div class="container">
                               <div class="footer-top-inner">
                                     <div class="wrapper">
-                                          <h3 class="newsletter-title">Get Discount Info</h3>
+                                          <h3 class="newsletter-title">Nhận thông tin giảm giá</h3>
                                           <div class="newsletter-desc">
-                                                Subscribe to the Outstock mailing list to receive updates on new arrivals, special offers and other discount information.
+                                                Đăng ký danh sách gửi thư Outstock để nhận thông tin cập nhật về hàng mới, ưu đãi đặc biệt và thông tin giảm giá khác.
                                           </div>
                                           <div class="newsletter-content">
                                                 <form action="#" method="POST">
                                                       <div class="form-group">
                                                             <input id="newsletter-input" class="form-control" type="text" placeholder="Your email address...">
                                                             <button class="btn btn-newsletter">
-                                                                  Subcribe
+                                                                  Đăng ký
                                                             </button>
                                                       </div>
                                                 </form>
@@ -34,7 +34,7 @@
                                                                   </a>
                                                             </div>
                                                             <div class="contactinfo-desc">
-                                                                  Outstock is a premium Templates theme with advanced admin module. It’s extremely customizable, easy to use and fully responsive and retina ready.
+                                                                  Outstock là một chủ đề Mẫu cao cấp với mô-đun quản trị nâng cao. Nó cực kỳ có thể tùy chỉnh, dễ sử dụng và đáp ứng đầy đủ và sẵn sàng cho võng mạc.
                                                             </div>
                                                             <div class="contactinfo-address">
                                                                   <i class="icons">
@@ -45,7 +45,7 @@
                                                                               </path>
                                                                         </svg>
                                                                   </i>
-                                                                  Add: 1234 Heaven Stress, Beverly Hill, Melbourne, USA.
+                                                                  Địa chỉ: 304 Ngã tư hàng xanh, Phạm Ngũ Lão
                                                             </div>
                                                             <div class="contactinfo-phone">
                                                                   <i class="icons">
@@ -56,7 +56,7 @@
                                                                               </path>
                                                                         </svg>
                                                                   </i>
-                                                                  Phone Number: (800) 123 456 789
+                                                                  Điện thoại: 0969697989
                                                             </div>
                                                             <div class="contactinfo-email">
                                                                   <i class="icons">
@@ -67,35 +67,35 @@
                                                                               </path>
                                                                         </svg>
                                                                   </i>
-                                                                  Email: Contact@erentheme.com
+                                                                  Email: htblteencode03@gmail.com
                                                             </div>
                                                       </div>
                                                 </div>
                                           </div>
                                           <div class="c-3 col">
                                                 <div class="vela-menu">
-                                                      <h4>Information</h4>
+                                                      <h4>Thông tin</h4>
                                                       <div class="vela-menu-content">
                                                             <ul class="vela-menu-list">
-                                                                  <li><a href="#">Careers</a></li>
-                                                                  <li><a href="#">Search</a></li>
-                                                                  <li><a href="#">Delivery Inforamtion</a></li>
-                                                                  <li><a href="#">Privacy Policy</a></li>
-                                                                  <li><a href="#">Terms & Condition</a></li>
+                                                                  <li><a href="#">Nghề nghiệp</a></li>
+                                                                  <li><a href="#">Tìm kiếm</a></li>
+                                                                  <li><a href="#">Thông tin giao hàng</a></li>
+                                                                  <li><a href="#">Chính sách bảo mật</a></li>
+                                                                  <li><a href="#">Điều khoản và điều kiện</a></li>
                                                             </ul>
                                                       </div>
                                                 </div>
                                           </div>
                                           <div class="c-3 col">
                                                 <div class="vela-menu">
-                                                      <h4>Our services</h4>
+                                                      <h4>Dịch vụ của chúng tôi</h4>
                                                       <div class="vela-menu-content">
                                                             <ul class="vela-menu-list">
-                                                                  <li><a href="#">Shipping Policy</a></li>
-                                                                  <li><a href="#">Help & Contact Us</a></li>
-                                                                  <li><a href="#">Returns & Refunds</a></li>
-                                                                  <li><a href="#">Online Stores</a></li>
-                                                                  <li><a href="#">Terms & Condition</a></li>
+                                                                  <li><a href="#">Chính sách vận chuyển</a></li>
+                                                                  <li><a href="#">Trợ giúp & Liên hệ với chúng tôi</a></li>
+                                                                  <li><a href="#">Trả lại và hoàn tiền</a></li>
+                                                                  <li><a href="#">Cửa hàng trực tuyến</a></li>
+                                                                  <li><a href="#">Điều khoản và điều kiện</a></li>
                                                             </ul>
                                                       </div>
                                                 </div>
@@ -108,9 +108,9 @@
                         <div class="container">
                               <div class="footer-bottom-inner">
                                     <div class="footer-copyright">
-                                          Copyright © 2022
-                                          <a href="/">Thanhhm</a>
-                                          all rights reserved.
+                                          Bản quyền © 2022
+                                          <a href="/">HTBL</a>
+                                          đã đăng ký bản quyền
                                     </div>
                                     <div class="footer-socials">
                                           <ul class="socials-list">

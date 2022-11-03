@@ -55,10 +55,19 @@
         $kq = $stmt -> fetchAll();
         return $kq;
     }
-    // hàm hiển thị số lượng sản phẩm
+    // hàm lấy số lượng sản phẩm
     function gettotal(){
         $conn = connect_db();
         $total_products = $conn->query('SELECT * FROM product ')->rowCount();
         return $total_products;
+    }
+    function time_elapsed_string($datetime, $full = false) {
+        $now = new DateTime;
+        $ago = new DateTime($datetime);
+        $diff = $now->diff($ago);
+        $diff->w = floor($diff->d / 7);
+        $diff->d -= $diff->w * 7;
+        $string = array('y' => 'year', 'm' => 'month', 'w' => 'week', 'd' => 'day', 'h' => 'hour', 'i' => 'minute', 's' => 'second');
+
     }
 ?>

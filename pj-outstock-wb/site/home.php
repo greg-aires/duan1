@@ -8,17 +8,17 @@
                                     <div class="container row-flex-margin">
                                           <div class="slide-content">
                                                 <h2 class="slide-title-h2">
-                                                      Handmade
+                                                      Thủ công
                                                 </h2>
                                                 <h3 class="slide-title-h3">
-                                                      Hand Carved Coffee
+                                                      Cà Phê Chạm Khắc Bằng Tay
                                                 </h3>
                                                 <div class="slide-desc">
-                                                      As rich and unique as the coffee beans it is intended for, this little scoop will make your morning ritual a special occasion every day
+                                                      Phong phú và độc đáo như những hạt cà phê mà nó dành cho, món sốt nhỏ này sẽ khiến nghi thức buổi sáng của bạn trở thành một dịp đặc biệt mỗi ngày
                                                 </div>
                                                 <div class="slide-button">
                                                       <a href="" class="btn btn-slide-show">
-                                                            discover now
+                                                            Khám phá ngay bây giờ
                                                       </a>
                                                 </div>
                                           </div>
@@ -31,17 +31,17 @@
                                     <div class="container row-flex-margin">
                                           <div class="slide-content">
                                                 <h2 class="slide-title-h2">
-                                                      Think different &
+                                                      Nghĩ Khác &
                                                 </h2>
                                                 <h3 class="slide-title-h3">
-                                                      Do otherwise
+                                                     Làm khác đi
                                                 </h3>
                                                 <div class="slide-desc">
-                                                      Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.
+                                                      Sự rõ ràng cũng là một quá trình năng động kéo theo thói quen thay đổi của người đọc.
                                                 </div>
                                                 <div class="slide-button">
                                                       <a href="" class="btn btn-slide-show">
-                                                            discover now
+                                                            Khám phá ngay bây giờ
                                                       </a>
                                                 </div>
                                           </div>
@@ -54,17 +54,17 @@
                                     <div class="container row-flex-margin">
                                           <div class="slide-content">
                                                 <h2 class="slide-title-h2">
-                                                      High Beam
+                                                      Chùm Cao
                                                 </h2>
                                                 <h3 class="slide-title-h3">
-                                                      by Tom Chung
+                                                      bởi Tom Chung
                                                 </h3>
                                                 <div class="slide-desc">
-                                                      High Beam is an adjustable desk or shelf light that offers a wide variety of lighting possibilities.
+                                                High Beam là đèn để bàn hoặc đèn kệ có thể điều chỉnh được mang đến nhiều khả năng chiếu sáng.
                                                 </div>
                                                 <div class="slide-button">
                                                       <a href="" class="btn btn-slide-show">
-                                                            discover now
+                                                            Khám phá ngay bây giờ
                                                       </a>
                                                 </div>
                                           </div>
@@ -111,9 +111,9 @@
                   <div class="row-flex-margin">
                         <div class="home-heading">
                               <h3 class="home-title">
-                                    <span>Trending Products</span>
+                                    <span>Sản Phẩm Thịnh Hành</span>
                               </h3>
-                              <p class="home-desc">Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+                              <p class="home-desc">Không có sản phẩm nào tệ, chỉ có chúng ta không sài sản phẩm đúng cách!</p>
                         </div>
 
                         <div class="products">
@@ -185,7 +185,7 @@
                                     
                               </div>
                               <div class="product-load-more">
-                                    <a class="btn-load-more">load more</a>
+                                    <a class="btn-load-more">Xem thêm</a>
                               </div>
                         </div>
                   </div>
@@ -214,9 +214,9 @@
                   <div class="row-flex-margin">
                         <div class="home-heading">
                               <h3 class="home-title">
-                                    <span>Sale Off</span>
+                                    <span>Giảm Giá</span>
                               </h3>
-                              <p class="home-desc">Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+                              <p class="home-desc">Không có sản phẩm nào tệ, chỉ có chúng ta không sài sản phẩm đúng cách!</p>
                         </div>
                         <div class="swiper swiper-effect slide-card-swiper">
                               <div class="swiper-wrapper">
@@ -297,7 +297,7 @@
                                                             </div>
                                                       </a>
                                                       <div class="product-label-sale">
-                                                            <span>Sale</span>
+                                                            <span>Giảm giá</span>
                                                       </div>
                                                       <div class="product-quick-view">
                                                             <a class="btn btn-product-view btn-quick-view" href="#">
@@ -312,7 +312,7 @@
                                                 </div>
                                                 <div class="product-content">
                                                       <h5 class="product-title">
-                                                            <a class="product-title-link" href="detail.php">Sacrificial Chair Design</a>
+                                                            <a class="product-title-link" href="detail.php">Ghế công thái học</a>
                                                       </h5>
                                                       <div class="product-price">
                                                             <div class="product-current">
@@ -332,7 +332,7 @@
                                                                                     </g>
                                                                               </svg>
                                                                         </i>
-                                                                        <span>Add to Cart</span>
+                                                                        <span>Thêm vào giỏ hàng</span>
                                                                   </button>
                                                             </form>
                                                       </div>
@@ -352,7 +352,7 @@
                                                             </div>
                                                       </a>
                                                       <div class="product-label-sale">
-                                                            <span>Sale</span>
+                                                            <span>Giảm giá</span>
                                                       </div>
                                                       <div class="product-quick-view">
                                                             <a class="btn btn-product-view btn-quick-view" href="#">
@@ -367,7 +367,7 @@
                                                 </div>
                                                 <div class="product-content">
                                                       <h5 class="product-title">
-                                                            <a class="product-title-link" href="detail.php">Sacrificial Chair Design</a>
+                                                            <a class="product-title-link" href="detail.php">Ghế công thái học</a>
                                                       </h5>
                                                       <div class="product-price">
                                                             <div class="product-current">
@@ -387,7 +387,7 @@
                                                                                     </g>
                                                                               </svg>
                                                                         </i>
-                                                                        <span>Add to Cart</span>
+                                                                        <span>Thêm vào giỏ hàng</span>
                                                                   </button>
                                                             </form>
                                                       </div>
@@ -407,7 +407,7 @@
                                                             </div>
                                                       </a>
                                                       <div class="product-label-sale">
-                                                            <span>Sale</span>
+                                                            <span>Giảm giá</span>
                                                       </div>
                                                       <div class="product-quick-view">
                                                             <a class="btn btn-product-view btn-quick-view" href="#">
@@ -422,7 +422,7 @@
                                                 </div>
                                                 <div class="product-content">
                                                       <h5 class="product-title">
-                                                            <a class="product-title-link" href="detail.php">Sacrificial Chair Design</a>
+                                                            <a class="product-title-link" href="detail.php">Ghế công thái học</a>
                                                       </h5>
                                                       <div class="product-price">
                                                             <div class="product-current">
@@ -442,7 +442,7 @@
                                                                                     </g>
                                                                               </svg>
                                                                         </i>
-                                                                        <span>Add to Cart</span>
+                                                                        <span>Thềm vào giỏ hàng</span>
                                                                   </button>
                                                             </form>
                                                       </div>
@@ -462,7 +462,7 @@
                                                             </div>
                                                       </a>
                                                       <div class="product-label-sale">
-                                                            <span>Sale</span>
+                                                            <span>Giảm giá</span>
                                                       </div>
                                                       <div class="product-quick-view">
                                                             <a class="btn btn-product-view btn-quick-view" href="#">
@@ -477,7 +477,7 @@
                                                 </div>
                                                 <div class="product-content">
                                                       <h5 class="product-title">
-                                                            <a class="product-title-link" href="detail.php">Sacrificial Chair Design</a>
+                                                            <a class="product-title-link" href="detail.php">Ghế công thái học</a>
                                                       </h5>
                                                       <div class="product-price">
                                                             <div class="product-current">
@@ -497,7 +497,7 @@
                                                                                     </g>
                                                                               </svg>
                                                                         </i>
-                                                                        <span>Add to Cart</span>
+                                                                        <span>Thêm vào giỏ hàng</span>
                                                                   </button>
                                                             </form>
                                                       </div>
@@ -517,7 +517,7 @@
                                                             </div>
                                                       </a>
                                                       <div class="product-label-sale">
-                                                            <span>Sale</span>
+                                                            <span>Giảm giá</span>
                                                       </div>
                                                       <div class="product-quick-view">
                                                             <a class="btn btn-product-view btn-quick-view" href="#">
@@ -532,7 +532,7 @@
                                                 </div>
                                                 <div class="product-content">
                                                       <h5 class="product-title">
-                                                            <a class="product-title-link" href="detail.php">Sacrificial Chair Design</a>
+                                                            <a class="product-title-link" href="detail.php">Ghế công thái học</a>
                                                       </h5>
                                                       <div class="product-price">
                                                             <div class="product-current">
@@ -552,7 +552,7 @@
                                                                                     </g>
                                                                               </svg>
                                                                         </i>
-                                                                        <span>Add to Cart</span>
+                                                                        <span>Thêm vào giỏ hàng</span>
                                                                   </button>
                                                             </form>
                                                       </div>
@@ -572,7 +572,7 @@
                                                             </div>
                                                       </a>
                                                       <div class="product-label-sale">
-                                                            <span>Sale</span>
+                                                            <span>Giảm giá</span>
                                                       </div>
                                                       <div class="product-quick-view">
                                                             <a class="btn btn-product-view btn-quick-view" href="#">
@@ -587,7 +587,7 @@
                                                 </div>
                                                 <div class="product-content">
                                                       <h5 class="product-title">
-                                                            <a class="product-title-link" href="detail.php">Sacrificial Chair Design</a>
+                                                            <a class="product-title-link" href="detail.php">Ghế công thái học</a>
                                                       </h5>
                                                       <div class="product-price">
                                                             <div class="product-current">
@@ -607,7 +607,7 @@
                                                                                     </g>
                                                                               </svg>
                                                                         </i>
-                                                                        <span>Add to Cart</span>
+                                                                        <span>Thêm vào giỏ hàng</span>
                                                                   </button>
                                                             </form>
                                                       </div>
@@ -675,9 +675,9 @@
                   <div class="row-flex-margin">
                         <div class="home-heading">
                               <h3 class="home-title">
-                                    <span>Our Blog Posts</span>
+                                    <span>Bài Đăng Của Tôi</span>
                               </h3>
-                              <p class="home-desc">Mirum est notare quam littera gothica quam nunc putamus parum claram!</p>
+                              <p class="home-desc">Không có sản phẩm nào tệ, chỉ có chúng ta không sài sản phẩm đúng cách !</p>
                         </div>
                         <div class="swiper swiper-effect slide-blog-swiper">
                               <div class="swiper-wrapper">
@@ -694,17 +694,17 @@
                                                       </h3>
                                                       <div class="blog-meta">
                                                             <span class="blog-author">
-                                                                  <span>By</span>
+                                                                  <span>Bởi</span>
                                                                   Mr Admin
                                                             </span>
                                                             <span>/</span>
-                                                            <span class="blog-publish">November 16, 2017</span>
+                                                            <span class="blog-publish">11/16, 2017</span>
                                                       </div>
                                                       <div class="blog-desc">
-                                                            Diga, Koma and Torus are three kitchen utensils designed for Ommo, a new design-oriented brand...
+                                                      Diga, Koma và Torus là ba dụng cụ nhà bếp được thiết kế cho Ommo, một thương hiệu theo định hướng thiết kế mới ...
                                                       </div>
                                                       <div class="btn btn-blog">
-                                                            Read More
+                                                            Đọc thêm
                                                       </div>
                                                 </div>
                                           </div>
@@ -722,17 +722,17 @@
                                                       </h3>
                                                       <div class="blog-meta">
                                                             <span class="blog-author">
-                                                                  <span>By</span>
+                                                                  <span>Bởi</span>
                                                                   Mr Admin
                                                             </span>
                                                             <span>/</span>
-                                                            <span class="blog-publish">November 16, 2017</span>
+                                                            <span class="blog-publish">11/16, 2017</span>
                                                       </div>
                                                       <div class="blog-desc">
-                                                            Diga, Koma and Torus are three kitchen utensils designed for Ommo, a new design-oriented brand...
+                                                      Diga, Koma và Torus là ba dụng cụ nhà bếp được thiết kế cho Ommo, một thương hiệu theo định hướng thiết kế mới ...
                                                       </div>
                                                       <div class="btn btn-blog">
-                                                            Read More
+                                                            Đọc thêm
                                                       </div>
                                                 </div>
                                           </div>
@@ -750,17 +750,17 @@
                                                       </h3>
                                                       <div class="blog-meta">
                                                             <span class="blog-author">
-                                                                  <span>By</span>
+                                                                  <span>Bởi</span>
                                                                   Mr Admin
                                                             </span>
                                                             <span>/</span>
-                                                            <span class="blog-publish">November 16, 2017</span>
+                                                            <span class="blog-publish">11/16, 2017</span>
                                                       </div>
                                                       <div class="blog-desc">
-                                                            Diga, Koma and Torus are three kitchen utensils designed for Ommo, a new design-oriented brand...
+                                                      Diga, Koma và Torus là ba dụng cụ nhà bếp được thiết kế cho Ommo, một thương hiệu theo định hướng thiết kế mới ...
                                                       </div>
                                                       <div class="btn btn-blog">
-                                                            Read More
+                                                            Đọc thêm
                                                       </div>
                                                 </div>
                                           </div>

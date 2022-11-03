@@ -7,15 +7,15 @@
                         </div>
                         <nav class="banner-navbar container">
                               <div class="banner-navbar__wrap">
-                                    <h1>Contact</h1>
+                                    <h1>Tiếp xúc</h1>
                                     <ol class="banner-list">
                                           <li class="banner-list-item">
                                                 <a href="#">
-                                                      <span>Home</span>
+                                                      <span>Trang chủ</span>
                                                 </a>
                                           </li>
                                           <li class="banner-list-item active">
-                                                <span>Contact</span>
+                                                <span>Tiếp xúct</span>
                                           </li>
                                     </ol>
                               </div>
@@ -27,7 +27,7 @@
                         <div class="row-flex row-flex-margin">
                               <div class="c-6 col">
                                     <h3 class="contact-title">
-                                          Find us here.
+                                          Tìm chúng tôi ở đây.
                                     </h3>
                                     <div class="contact-boxes">
                                           <div class="boxes mb-30 contact-boxes--address">
@@ -37,8 +37,8 @@
                                                       </svg> 
                                                 </div>
                                                 <div class="boxes-info">
-                                                      <label>Address:</label>
-                                                      <p>1234 Heaven Stress, Beverly Hill, Melbourne, USA.</p>
+                                                      <label>Địa chỉ:</label>
+                                                      <p>304 Ngã tư hàng xanh, Phạm Ngũ Lão</p>
                                                 </div>
                                           </div>
                                           <div class="boxes mb-30 contact-boxes--phone">
@@ -48,8 +48,8 @@
                                                       </svg>
                                                 </div>
                                                 <div class="boxes-info">
-                                                      <label>Phone Number:</label>
-                                                      <p>(800) 123 456 789, (800) 987 654 321</p>
+                                                      <label>Số điện thoại:</label>
+                                                      <p>0969697980, 095678444</p>
                                                 </div>
                                           </div>
                                           <div class="boxes mb-30 contact-boxes--email">
@@ -65,19 +65,19 @@
                                           </div>
                                     </div>
                                     <div class="contact-description">
-                                          <p>Outstock is a premium Templates theme with advanced admin module. It’s extremely customizable, easy to use and fully responsive and retina ready. Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                                          <p>Outstock là một chủ đề Mẫu cao cấp với mô-đun quản trị nâng cao. Nó cực kỳ có thể tùy chỉnh, dễ sử dụng và đáp ứng đầy đủ và sẵn sàng cho võng mạc. Hoặc nỗi đau đó eu feugiat norativeisis nhưng vero eros et accumsan et justo ghét dignissim qui bilitit praesent luptatum zzril xóanit ague duis dolore te feugait nofyingisi</p>
                                     </div>
                               </div>
                               <div class="c-6 col">
                                     <h3 class="contact-title">
-                                          Contact Us
+                                          Liên hệ chúng tôi
                                     </h3>
                                     <form class="contact-form" action="#" method="post" >
                                           <div class="row-flex row-flex-margin align-items">
                                                 <div class="c-6 col">
                                                       <div class="form-group">
                                                             <label for="contact--name">
-                                                                  Name
+                                                                  Tên
                                                                   <sup>*</sup>
                                                             </label>
                                                             <input class="form-control" id="contact--name" type="text" placeholder="Name">
@@ -95,7 +95,7 @@
                                           </div>
                                           <div class="form-group"> 
                                                 <label for="contact--message">
-                                                      Message
+                                                      Trò chuyện
                                                       <sup>*</sup>
                                                 </label>
                                                 <textarea class="form-control" id="contact--message" rows="6" placeholder="Message"></textarea>

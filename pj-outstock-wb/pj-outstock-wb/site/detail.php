@@ -244,11 +244,11 @@
                                                 Phản hồi khách hàng
                                                 </h2>
                                                 <span class="spr-rating">
-                                                      <i class="fa-regular fa-star"></i>
-                                                      <i class="fa-regular fa-star"></i>
-                                                      <i class="fa-regular fa-star"></i>
-                                                      <i class="fa-regular fa-star"></i>
-                                                      <i class="fa-regular fa-star"></i>
+                                                      <i class="fa-solid fa-star" id="star1"></i>
+                                                      <i class="fa-solid fa-star" id="star2"></i>
+                                                      <i class="fa-solid fa-star" id="star3"></i>
+                                                      <i class="fa-solid fa-star" id="star4"></i>
+                                                      <i class="fa-solid fa-star" id="star5"></i>
                                                 </span>
                                                 <span class="spr-review-count">
                                                 Dựa trên 4 nhận xét
@@ -277,11 +277,11 @@
                                                                   <div class="spr-form-review-rating">
                                                                         <label class="spr-form-label" for="">Rating</label>
                                                                         <div class="spr-form-input spr-starrating ">
-                                                                              <a href="#!"><i class="fa-regular fa-star"></i></a>
-                                                                              <a href="#!"><i class="fa-regular fa-star"></i></a>
-                                                                              <a href="#!"><i class="fa-regular fa-star"></i></a>
-                                                                              <a href="#!"><i class="fa-regular fa-star"></i></a>
-                                                                              <a href="#!"><i class="fa-regular fa-star"></i></a>
+                                                                              <a href="#!"><i class="fa-solid fa-star"></i></a>
+                                                                              <a href="#!"><i class="fa-solid fa-star"></i></a>
+                                                                              <a href="#!"><i class="fa-solid fa-star"></i></a>
+                                                                              <a href="#!"><i class="fa-solid fa-star"></i></a>
+                                                                              <a href="#!"><i class="fa-solid fa-star"></i></a>
                                                                         </div>
                                                                   </div>
                                                                   <div class="spr-form-review-title">
@@ -308,11 +308,11 @@
                                                       <div class="spr-review">
                                                             <div class="spr-review-header">
                                                                   <span class="spr-review-header-star">
-                                                                        <i class="fa-regular fa-star"></i>
-                                                                        <i class="fa-regular fa-star"></i>
-                                                                        <i class="fa-regular fa-star"></i>
-                                                                        <i class="fa-regular fa-star"></i>
-                                                                        <i class="fa-regular fa-star"></i>
+                                                                        <i class="fa-solid fa-star"></i>
+                                                                        <i class="fa-solid fa-star"></i>
+                                                                        <i class="fa-solid fa-star"></i>
+                                                                        <i class="fa-solid fa-star"></i>
+                                                                        <i class="fa-solid fa-star"></i>
                                                                   </span>
                                                                   <h3 class="spr-review-header-title">nice</h3>
                                                                   <span class="spr-review-header-byline">
@@ -340,9 +340,33 @@
       </div>
 </main>
 <script>
+      // WRITE A REVIEW 
       $(document).ready(function(){
             $("#toggle").click(function(){
                   $("#spr-form").fadeToggle();
             })
+      });
+      // STAR RATING 
+      $(document).ready(function(){
+            $("#star1").click(function(){
+                  $(".fa-star").css("color", "black");
+                  $("#star1").css("color", "orange");
+            });
+            $("#star2").click(function(){
+                  $(".fa-star").css("color", "black");
+                  $("#star1,#star2").css("color", "orange");
+            });
+            $("#star3").click(function(){
+                  $(".fa-star").css("color", "black");
+                  $("#star1,#star2,#star3").css("color", "orange");
+            });
+            $("#star4").click(function(){
+                  $(".fa-star").css("color", "black");
+                  $("#star1,#star2,#star3,#star4").css("color", "orange");
+            });
+            $("#star5").click(function(){
+                  $(".fa-star").css("color", "black");
+                  $("#star1,#star2,#star3,#star4,#star5").css("color", "orange");
+            });
       });
 </script>

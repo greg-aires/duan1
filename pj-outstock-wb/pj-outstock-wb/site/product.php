@@ -427,32 +427,4 @@
                   changeGrid.classList.add('active');
             });
 
-            function sort(x, p) {
-                  var tag = document.getElementsByClassName('color')
-                  var d = document.getElementById("row");
-                  var pagi = document.getElementById("pagination");
-                  var pages = document.getElementById("pages");
-                  $.ajax({
-                        url: 'shop.php',
-                        type: 'GET',
-                        data: 'action=page&sort=' + x + '&page=1', //dữ liệu sẽ được gửi
-                        success: function(data) // Hàm thực thi khi nhận dữ liệu được từ server
-                        {
-                              var myObj = JSON.parse(data);
-                              var x = 'shop.php'
-                              for (i = 2; i < myObj.length; i++) {
-                                    if (x == 'shop.php') {
-                                          x += '?' + myObj[i][1] + '=' + myObj[i][0];
-                                    } else {
-                                          x += '&' + myObj[i][1] + '=' + myObj[i][0];
-                                    }
-                              }
-                              history.pushState('', '', x);
-                              d.innerHTML = myObj[0];
-                              pagi.innerHTML = myObj[1];
-                              pages.innerHTML = myObj[1];
-                        }
-                  });
-                  return false;
-            }
       </script>
